@@ -6,7 +6,7 @@ const connectDB = require("./config/db");
 const bodyParser = require("body-parser");
 const authrouter = require("./routes/user");
 const companyrouter = require("./routes/company");
-const client = require("./routes/client");
+// const client = require("./routes/client");
 const { join } = require("path");
 const cors = require("cors");
 
